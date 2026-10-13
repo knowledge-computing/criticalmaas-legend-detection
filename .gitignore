@@ -1,0 +1,29 @@
+# Environments, build products and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.DS_Store
+# Local credentials and research inputs
+.env
+.env.*
+metadata/
+downloads/
+data/
+models/
+# Generated outputs and local historical material
+outputs/
+results/
+releases/
+archive/
+help_code/
+paper/
+sigspatial_geosearch_2025.zip
+
+.venv-*/
+external/
+!.env.example

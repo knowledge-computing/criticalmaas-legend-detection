@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "criticalmaas-legend-icl"
+version = "0.2.0"
+description = "Legend item-description detection for the GeoSearch 2025 paper"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["Pillow>=10,<13", "PyYAML>=6,<7", "openai>=1.68,<3", "scipy>=1.10,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=7,<9"]
+
+[project.scripts]
+legend-icl = "legend_icl.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

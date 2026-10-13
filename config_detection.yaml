@@ -1,0 +1,14 @@
+# GeoSearch 2025 method defaults. Paths are passed explicitly through the CLI.
+seed: 1337
+icl:
+  num_examples: 15
+  normalize_coords: false  # The paper uses pixel xyxy coordinates.
+openai:
+  model: gpt-4o
+  prompt_style: manuscript # Minimal two-image + paper JSON request.
+  api: responses          # Also supports chat_completions.
+  temperature: 0.0
+  output_format: json_object
+  max_output_tokens: 16000
+  timeout: 180
+  max_retries: 2

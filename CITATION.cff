@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this implementation, please cite the paper below."
+title: "CriticalMAAS Legend Detection"
+type: software
+version: 0.2.0
+repository-code: "https://github.com/knowledge-computing/criticalmaas-legend-detection"
+authors:
+  - family-names: Kirsanova
+    given-names: Sofia
+  - family-names: Duan
+    given-names: Weiwei
+  - family-names: Chiang
+    given-names: Yao-Yi
+preferred-citation:
+  type: conference-paper
+  title: "Detecting Legend Items on Historical Maps Using GPT-4o with In-Context Learning"
+  authors:
+    - family-names: Kirsanova
+      given-names: Sofia
+    - family-names: Duan
+      given-names: Weiwei
+    - family-names: Chiang
+      given-names: Yao-Yi
+  year: 2025
+  doi: "10.1145/3764920.3770590"
+  conference:
+    name: "The 4th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data"

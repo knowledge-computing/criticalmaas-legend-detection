@@ -1,0 +1,4 @@
+{
+  "examples": ["../data/prepared/example_map/record.json"],
+  "targets": ["../data/prepared/target_map/record.json"]
+}
