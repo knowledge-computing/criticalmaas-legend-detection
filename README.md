@@ -62,7 +62,7 @@ legend-icl experiment \
 
 [Download the gallery and JSON results](https://drive.google.com/file/d/1PNZ4BdREYQUKfKPv6xe4Oci090CCWU3S/view), or [browse the complete results collection](https://drive.google.com/drive/folders/1QBa-5ZM5Q6xA12eEq30fZLPUuExTAvUp) for full-resolution overlays and legend detail images. Extract the gallery ZIP and open `index.html` in a browser.
 
-ChatGPT-generated visual results cover 19 historical maps, with legend items, descriptions, symbol associations, and correlation-chart entries. Two examples are shown below.
+Visual results cover 19 historical maps, with legend items, descriptions, symbol associations, and correlation-chart entries. Two examples are shown below.
 
 ![Legend items and descriptions on USGS MF-2367](docs/examples/mf2367-legend.jpg)
 
